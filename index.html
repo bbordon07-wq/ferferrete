@@ -1,0 +1,56 @@
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ferretería El Martillo</title>
+
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+    <!-- Google reCAPTCHA -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+</head>
+<body>
+
+    
+    <header>
+        <h1>Ferretería El Martillo</h1>
+        <p>Dejanos tu Consulta</p>
+    </header>
+
+    <hr>
+
+    <main>
+        <h2>Productos</h2>
+        <ul>
+            <li>Martillos</li>
+            <li>Destornilladores</li>
+            <li>Clavos</li>
+            <li>Pinturas</li>
+            <li>Taladros</li>
+        </ul>
+
+        <h2>Contacto</h2>
+        <p>Teléfono: 1234-5678</p>
+        <p>Email: bbordon07@gmail.com</p>
+
+        <button onclick="enviarEmail()">
+            Contactar por Email
+        </button>
+
+        <br><br>
+
+        <form action="#" method="POST">
+            <div class="g-recaptcha" data-sitekey="your_site_key"></div>
+            <br>
+            <input type="submit" value="Enviar">
+        </form>
+    </main>
+
+    <hr>
+
+    <footer>
+        <p>&copy; 2026 Ferretería El Martillo</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
